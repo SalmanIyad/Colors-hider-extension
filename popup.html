@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logo Remover</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 10px;
+    }
+    h1 {
+      font-size: medium;
+      margin-bottom: 30px;
+    }
+    #button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      background-color: #1156b1;
+      border: none;
+      outline: none;
+      color: #FFFFFF;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+      cursor: pointer;
+    }
+
+    #button:hover {
+      background-color: #0a34a5;
+    }
+
+    a {
+      color: #151679;
+      font-size: small;
+    }
+
+    .lock-page {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 180px;
+      height: 200px;
+      color: #888;
+    }
+  </style>
+</head>
+<body class="lock-page">
+  <h1>MDN Logo Hider</h1>
+  <button id="button">Activate</button>
+  <p>
+    <a href="https://github.com/SalmanIyad" target="_blank">Developer's GitHub</a>
+  </p>
+  <script src="popup.js"></script>
+  <script src="content.js"></script>
+</body>
+</html>
